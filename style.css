@@ -1,0 +1,59 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    padding: 0 0 0 20px;
+}
+
+.none-list{
+    list-style-type: none;
+    padding: 0;
+}
+
+body{
+    padding: 10px;
+}
+
+h2{
+    color: rgb(0, 128, 255);
+    border-bottom: solid 1px gray;
+    padding-bottom: 5px;
+}
+
+header{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.title-box{
+    width: 770px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px gray solid;
+}
+
+.title{
+    color: dodgerblue;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.subtitle{
+    margin-top: 65px;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.info-1{
+    width: 500px;
+    margin-right: 20px;
+}
